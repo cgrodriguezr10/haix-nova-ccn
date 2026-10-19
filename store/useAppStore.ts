@@ -20,7 +20,7 @@ export const useAppStore = create<AppStore>((set) => ({
   filtroCiudad:     'Todas',
   filtroFecha:      'Mes',
   setFiltroCiudad:  (filtroCiudad)  => set({ filtroCiudad }),
-  setFiltroFecha:   (filtroFecha)   => set({ filtroFecha, rangoActivo: false, filtroRangoIdx: -1 }),
+  setFiltroFecha:   (filtroFecha)   => set({ filtroFecha, rangoActivo: false }),
   rangoDesde:       '',
   rangoHasta:       '',
   rangoActivo:      false,
